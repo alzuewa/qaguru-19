@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "qaguru-19"
+version = "0.1.0"
+description = ""
+authors = ["A"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+appium-python-client = "^4.3.0"
+allure-pytest = "^2.13.5"
+selene = "2.0.0rc9"
+requests = "^2.32.3"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
